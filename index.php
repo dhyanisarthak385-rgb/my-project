@@ -765,6 +765,9 @@
                                                     <option value="5" selected="selected">5</option>
                                                 </select><span class="ps-product__review">( Reviews)</span>
                                             </div>
+                                             <?php 
+            include "includes/footer.php"
+      ?>
                                             <div class="ps-product__footer">No of pcs available <span>3	</span></div>
                                             <div class="ps-product__desc">
                                                 <ul class="ps-product__list">
@@ -2704,11 +2707,13 @@
                                     <div class="ps-footer--block">
                                         <h5 class="ps-block__title">Information</h5>
                                         <ul class="ps-block__list">
-                                            <li><a href="about-us.html">About us</a></li>
-                                            <li><a href="#">Delivery information</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Sales</a></li>
-                                            <li><a href="#">Terms &amp; Conditions</a></li>
+
+                                            <li><a href="index.php">home</a></li>
+                                            <li><a href="about-us.php">about us</a></li>
+                                            <li><a href="my-account">my account</a></li>
+                                            <li><a href="product1.php">product</a></li>
+                                            <li><a href="blog-masonry.php">blog</a></li>
+                                            <li><a href="contact.php">contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
