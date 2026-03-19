@@ -331,14 +331,7 @@
                 </section>
             </div>
         </div>
-        <?php 
-            include "includes/footer.php"
-
-      ?>
-
-      <?php
-      include "includes/config.php"
-      ?>
+       
     </div>
     <div class="ps-search">
         <div class="ps-search__content ps-search--mobile"><a class="ps-search__close" href="#" id="close-search"><i class="icon-cross"></i></a>

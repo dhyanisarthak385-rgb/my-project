@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <footer class="ps-footer ps-footer--1">
+ <footer class="ps-footer ps-footer--1">
             <div class="ps-footer--top">
                 <div class="container">
                     <div class="row m-0">
@@ -48,34 +40,32 @@
                                         <div class="ps-footer__fax"><i class="icon-telephone"></i>0020 500 – MYMEDI – 000</div>
                                         <p class="ps-footer__work">Monday – Friday: 9:00-20:00<br>Saturday: 11:00 – 15:00</p>
                                         <hr>
-                                        <p><a class="ps-footer__email" href="/cdn-cgi/l/email-protection#85e6eaebf1e4e6f1c5e0fde4e8f5e9e0abe6eae8"> <i class="icon-envelope"></i><span class="__cf_email__" data-cfemail="32515d5c4653514672574a535f425e571c515d5f">[email&#160;protected]</span> </a></p>
+                                        <p><a class="ps-footer__email" href="/cdn-cgi/l/email-protection#f794989983969483b7928f969a879b92d994989a"> <i class="icon-envelope"></i><span class="__cf_email__" data-cfemail="dab9b5b4aebbb9ae9abfa2bbb7aab6bff4b9b5b7">[email&#160;protected]</span> </a></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 col-md-5">
                             <div class="row">
-                                <div class="col-6 col-md-4">
+                                <div class="col-6 col-md-6">
                                     <div class="ps-footer--block">
                                         <h5 class="ps-block__title">Information</h5>
                                         <ul class="ps-block__list">
-                                            <li><a href="about-us.html">About us</a></li>
-                                            <li><a href="#">Delivery information</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">Sales</a></li>
-                                            <li><a href="#">Terms &amp; Conditions</a></li>
+                                            <li><a href="index.php">home</a></li>
+                                            <li><a href="about-us.php">About us</a></li>
+                                            <li><a href="contact-us.php">contact us</a></li>
+                                           
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-6 col-md-4">
+                                <div class="col-6 col-md-6">
                                     <div class="ps-footer--block">
                                         <h5 class="ps-block__title">Account</h5>
                                         <ul class="ps-block__list">
-                                            <li><a href="#">My account</a></li>
-                                            <li><a href="#">My orders</a></li>
-                                            <li><a href="#">Returns</a></li>
-                                            <li><a href="#">Shipping</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="my-account.php">My account</a></li>
+                                            <li><a href="blog-masonry.php">blog</a></li>
+                                            <li><a href="product1.php">product</a></li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -105,5 +95,3 @@
                 </div>
             </div>
         </footer>
-</body>
-</html>
