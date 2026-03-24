@@ -18,19 +18,15 @@
                             <li><a class="ps-header__item" href="#" id="login-modal"><i class="icon-user"></i></a>
                                 <div class="ps-login--modal">
                                     <form method="get" action="do_action">
-                                        <div class="form-group">
-                                            <label>Username or Email Address</label>
-                                            <input class="form-control" type="text">
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Password</label>
-                                            <input class="form-control" type="password">
-                                        </div>
                                         <div class="form-group form-check">
                                             <input class="form-check-input" type="checkbox">
-                                            <label>Remember Me</label>
+                                            
                                         </div>
-                                        <button class="ps-btn ps-btn--warning" type="submit">Log In</button>
+                                        <a href=""  class="ps-btn ps-btn--warning mb-2" type="submit" >ragistration</a>
+                                        <a href=""  class="ps-btn bg-info mb-2" type="submit">Log in</a>
+                                        <a href=""  class="ps-btn bg-warning mb-2" type="submit">my-account</a>
+                                        <a href=""  class="ps-btn bg-info" type="submit">Logout</a>
+                                  
                                     </form>
                                 </div>
                             </li>
