@@ -1,5 +1,11 @@
 ﻿<?php 
+session_start();
 include "includes/config.php";
+
+if(!isset($session['user_id'])){
+    header("location: login.php");
+exit();
+}
 
 $sql ="SELECT * FROM contcats";
 $result = mysqli_query($conn,$sql);

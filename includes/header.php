@@ -22,10 +22,10 @@
                                             <input class="form-check-input" type="checkbox">
                                             
                                         </div>
-                                        <a href=""  class="ps-btn ps-btn--warning mb-2" type="submit" >ragistration</a>
-                                        <a href=""  class="ps-btn bg-info mb-2" type="submit">Log in</a>
-                                        <a href=""  class="ps-btn bg-warning mb-2" type="submit">my-account</a>
-                                        <a href=""  class="ps-btn bg-info" type="submit">Logout</a>
+                                        <a href="register.php"  class="ps-btn ps-btn--warning mb-2" type="submit" >ragistration</a>
+                                        <a href="index.php"  class="ps-btn bg-info mb-2" type="submit">Log in</a>
+                                        <a href="my-account.php"  class="ps-btn bg-warning mb-2" type="submit">my-account</a>
+                                        <a href="login.php"  class="ps-btn bg-info" type="submit">Logout</a>
                                   
                                     </form>
                                 </div>
