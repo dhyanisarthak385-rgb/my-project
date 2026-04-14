@@ -2,8 +2,8 @@
 session_start();
 include "includes/config.php";
 
-if(!isset($session['user_id'])){
-    header("location: login.php");
+if(!isset($_SESSION['user_id'])){
+    header("Location: login.php");
 exit();
 }
 

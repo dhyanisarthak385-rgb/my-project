@@ -17,16 +17,33 @@
                             <li><a class="ps-header__item open-search" href="#"><i class="icon-magnifier"></i></a></li>
                             <li><a class="ps-header__item" href="#" id="login-modal"><i class="icon-user"></i></a>
                                 <div class="ps-login--modal">
+
+<?php
+if(!isset($_SESSION['user_id'])){
+      ?>
+    <a href="register.php"  class="ps-btn ps-btn--warning mb-2" type="submit" >ragistration</a>
+     <a href="login.php"  class="ps-btn bg-info mb-2" type="submit">Log in</a>
+  
+     <?php
+       }else{
+        ?>
+       <a href="my-account.php"  class="ps-btn bg-warning mb-2" type="submit">my-account</a>
+       <a href="login.php"  class="ps-btn bg-info" type="submit">Logout</a>
+                                  
+<?php
+       }?>
+
+
+
+
+
                                     <form method="get" action="do_action">
                                         <div class="form-group form-check">
                                             <input class="form-check-input" type="checkbox">
                                             
                                         </div>
-                                        <a href="register.php"  class="ps-btn ps-btn--warning mb-2" type="submit" >ragistration</a>
-                                        <a href="index.php"  class="ps-btn bg-info mb-2" type="submit">Log in</a>
-                                        <a href="my-account.php"  class="ps-btn bg-warning mb-2" type="submit">my-account</a>
-                                        <a href="login.php"  class="ps-btn bg-info" type="submit">Logout</a>
-                                  
+                                        
+                                        
                                     </form>
                                 </div>
                             </li>

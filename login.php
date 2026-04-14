@@ -50,12 +50,12 @@
         <div class="row d-flex justify-content-center">
           
           <div class="col-6 col-md-6">
-            <form action="controllers/users.php" method="post">
+            <form action="controllers/login.php" method="post">
               <div class="ps-form--review border border_dark p-4 rounded">
                 <h2 class="ps-form__title">login</h2>
                 <div class="ps-form__group">
                   <label class="ps-form__label">email</label>
-                  <input class="form-control ps-form__input" type="name" placeholder="enter your email"  name="username"/>
+                  <input class="form-control ps-form__input" type="email" placeholder="enter your email"  name="email"/>
                 </div>
                 
                 <div class="ps-form__group">
@@ -74,7 +74,7 @@
                   
                 </div>
                 <div class="ps-form__submit">
-                  <button class="ps-btn ps-btn--warning">Register</button>
+                  <button class="ps-btn ps-btn--warning">Login</button>
                 </div>
               </div>
             </form>
